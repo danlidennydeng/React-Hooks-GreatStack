@@ -24,3 +24,21 @@ Developers prefer functional components over class components.
 Benefits of React Hooks?
 
 React Hooks simplify the code, improves the readability, reusability and overall performance of the application.
+
+---
+
+The useEffect Hook allows you to perform side effects in your components.
+
+Some examples of side effects are:
+
+- Fetching data from API
+- Directly upating the DOM
+- Timers like SetTimeOut and SetInterval
+
+---
+
+<React.StrictMode> would make its initial rendered twice in main.jsx
+
+---
+
+useRef is a react hook that allow us to create mutable variables, which will not re-render the component.
