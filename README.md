@@ -42,3 +42,5 @@ Some examples of side effects are:
 ---
 
 useRef is a react hook that allow us to create mutable variables, which will not re-render the component.
+
+useRef is also used for accessing DOM elements.
