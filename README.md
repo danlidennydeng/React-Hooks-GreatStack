@@ -44,3 +44,16 @@ Some examples of side effects are:
 useRef is a react hook that allow us to create mutable variables, which will not re-render the component.
 
 useRef is also used for accessing DOM elements.
+
+---
+
+The React useMemo Hook returns a memorized value. (It is like caching a value so that it does not need to be recalculated.)
+
+The useMemo Hook only runs when one of its dependencies gets updated.
+
+This can improve the performance of the application. There is one more hook in react to improve performance, that is useCallback hook.
+
+The useMemo and useCallback hooks are similar. The main difference is
+
+- useMemo returns a memorized value.
+- useCallback returns a memorized function.

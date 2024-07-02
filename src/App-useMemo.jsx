@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState } from "react";
 
 function App() {
   const [number, setNumber] = useState(0);
@@ -9,7 +9,7 @@ function App() {
     return Math.pow(num, 3);
   }
 
-  const result = useMemo(() => cubeNum(number), [number]);
+  const result = cubeNum(number);
 
   return (
     <>
@@ -33,5 +33,4 @@ function App() {
   );
 }
 export default App;
-
-// the useMemo cached "result" this time so that it would not be re-calculated again no matter of how many times have clicked the counter button.
+// as soon as you click on counter button every time, the function cubeNum got rendered every time because it got re-calculated every time.
