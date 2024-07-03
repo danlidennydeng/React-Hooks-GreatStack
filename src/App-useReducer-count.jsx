@@ -11,9 +11,6 @@ function App() {
       case "decrease": {
         return { count: state.count - 1 };
       }
-      case "input": {
-        return { count: action.payload };
-      }
       default: {
         return state;
       }
@@ -27,15 +24,6 @@ function App() {
       <h1>{state.count}</h1>
       <button onClick={() => dispatch({ type: "increase" })}>Increase</button>
       <button onClick={() => dispatch({ type: "decrease" })}>Decrease</button>
-      <br></br>
-
-      <input
-        value={state.count}
-        onChange={(e) =>
-          dispatch({ type: "input", payload: Number(e.target.value) })
-        }
-        type="number"
-      />
     </>
   );
 }

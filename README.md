@@ -72,8 +72,21 @@ It provides the cached function on re-rendering of the component, instead of cre
 
 ---
 
-useContest
+useContext
 
 useContext is a React Hook that allows you access data from any component without explicitly passing it down through props at every level.
 
 useContext is used to manage Global data in the React App.
+
+---
+
+useReducer
+
+useReducer is similar to useState, but instead of providing state & setter function, it provides state and dispatch function.
+
+The useReducer Hook accepts two arguments
+
+- Reducer function, which specifies how the state gets updated.
+- initial state
+
+and returns: current state and dispatch method
