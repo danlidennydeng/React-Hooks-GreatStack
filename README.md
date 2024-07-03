@@ -69,3 +69,11 @@ useCallback
 useCallback is a React Hook that let you cache a function definition between re-renders. This means that by using useCallback, it does not create multiple instance of same function when re-rendering happens.
 
 It provides the cached function on re-rendering of the component, instead of creating a new instance of the function.
+
+---
+
+useContest
+
+useContext is a React Hook that allows you access data from any component without explicitly passing it down through props at every level.
+
+useContext is used to manage Global data in the React App.
