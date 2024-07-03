@@ -1,9 +1,13 @@
+<React.StrictMode> would make its initial rendered twice in main.jsx
+
+---
+
 npm create vite@4.1.0
 Choose React, then JavaScript
 
 ---
 
-What is Hooks?
+What are Hooks?
 
 Hooks are special functions, that allow us to use state and other React features in functional components.
 
@@ -19,13 +23,13 @@ Hooks made react functional components so easy to use.
 
 Developers prefer functional components over class components.
 
----
-
 Benefits of React Hooks?
 
 React Hooks simplify the code, improves the readability, reusability and overall performance of the application.
 
 ---
+
+useEffect
 
 The useEffect Hook allows you to perform side effects in your components.
 
@@ -37,15 +41,15 @@ Some examples of side effects are:
 
 ---
 
-<React.StrictMode> would make its initial rendered twice in main.jsx
-
----
+useRef
 
 useRef is a react hook that allow us to create mutable variables, which will not re-render the component.
 
 useRef is also used for accessing DOM elements.
 
 ---
+
+useMemo
 
 The React useMemo Hook returns a memorized value. (It is like caching a value so that it does not need to be recalculated.)
 
@@ -57,3 +61,11 @@ The useMemo and useCallback hooks are similar. The main difference is
 
 - useMemo returns a memorized value.
 - useCallback returns a memorized function.
+
+---
+
+useCallback
+
+useCallback is a React Hook that let you cache a function definition between re-renders. This means that by using useCallback, it does not create multiple instance of same function when re-rendering happens.
+
+It provides the cached function on re-rendering of the component, instead of creating a new instance of the function.
