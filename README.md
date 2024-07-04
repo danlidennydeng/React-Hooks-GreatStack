@@ -89,4 +89,10 @@ The useReducer Hook accepts two arguments
 - Reducer function, which specifies how the state gets updated.
 - initial state
 
-and returns: current state and dispatch method
+## and returns: current state and dispatch method
+
+useLayoutEffect
+
+useLayout Effect works similarly to use useEffect, but it is called before the user interface gots mounted.
+
+useEffect gets called after printing the DOM elements, while useLayoutEffect gets called before printing the DOM elements.
