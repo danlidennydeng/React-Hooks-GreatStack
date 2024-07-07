@@ -1,3 +1,5 @@
+https://youtu.be/6wf5dIrryoQ
+
 <React.StrictMode> would make its initial rendered twice in main.jsx
 
 ---
@@ -89,10 +91,18 @@ The useReducer Hook accepts two arguments
 - Reducer function, which specifies how the state gets updated.
 - initial state
 
-## and returns: current state and dispatch method
+- and returns: current state and dispatch method
+
+---
 
 useLayoutEffect
 
 useLayout Effect works similarly to use useEffect, but it is called before the user interface gots mounted.
 
 useEffect gets called after printing the DOM elements, while useLayoutEffect gets called before printing the DOM elements.
+
+---
+
+custom hook
+
+React allows us to create our own hook which is known as custom hook.
